@@ -1,0 +1,38 @@
+.login-container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: left;
+  position: absolute; /* Use absolute positioning to control where the form goes */
+  top: 50px; /* Push it 50px from the top of the page */
+  left: 50px; /* Push it 50px from the left of the page */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
