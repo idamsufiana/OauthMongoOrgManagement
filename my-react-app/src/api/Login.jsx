@@ -22,7 +22,7 @@ export default function Login({ isLogin, setIsLogin }) {
     <div>
       <h1>Google Login</h1>
       <Nav />
-      <GoogleLogin onGoogleSignIn={onGoogleSignIn} text="로그인" />
+      <GoogleLogin onGoogleSignIn={onGoogleSignIn} text="Login" />
     </div>
   );
 }
